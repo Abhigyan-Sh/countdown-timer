@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');/* in google fonts it asks us whether do we like to take 'link' or '@import' so we took import here ^_^ */
+*{
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("pexels-lina-kivaka-1740897.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 1540px 900px;
+    background-position: 0px 0px;
+    /* background-r.i.p.s */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    color: black;
+}
+h2{
+    font-size: 60px;
+    /* border: 5px dashed white;
+    width: 600px;
+    margin-left: 440px; */
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+
+    /* line-height: ; */
+    word-spacing: 20px;
+    letter-spacing: 7px;
+}
+#container_timer{
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.day_c,.hours_c,.minutes_c,.seconds_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    font-size: 25px;
+    color: seagreen;
+    letter-spacing: 3px;
+}
